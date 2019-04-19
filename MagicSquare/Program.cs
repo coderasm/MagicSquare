@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MagicSquare
 {
@@ -10,6 +6,12 @@ namespace MagicSquare
   {
     static void Main(string[] args)
     {
+      MagicSquare.Create(3).print();
+      Console.WriteLine();
+      MagicSquare.Create(5).print();
+      Console.WriteLine();
+      MagicSquare.Create(7).print();
+      Console.ReadKey();
     }
   }
 }
