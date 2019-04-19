@@ -77,11 +77,6 @@ namespace MagicSquare
       }
     }
 
-    private void populateWithDoublyEvenMethod()
-    {
-
-    }
-
     public void print()
     {
       int[] columnWidths = new int[nSquares];
